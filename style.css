@@ -62,3 +62,63 @@ body{
     text-align: center;
     font-weight: 600;
 }
+
+.all_banking{
+    display: flex;
+    justify-content: space-between;
+}
+
+.single_div{
+    padding: 30px;
+    background: tomato;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex: 0 0 31%;
+    max-width: 31%;
+}
+.single_div h2{
+    color: #FFF;
+    font-size: 25px;
+}
+.single_div p{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.balance_add{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.input_b_single{
+    padding: 30px;
+    background-color: #000;
+    color: #FFF;
+    flex: 0 0 48%;
+    max-width: 48%;
+    box-sizing: border-box;
+}
+
+.input_b_single h2{
+    font-size: 30px;
+    color: #FFF;
+}
+.input_b_single input{
+    padding: 12px 20px;
+    width: 100%;
+    border: 1px solid #FF;
+    color:#000;
+    box-sizing:border-box;
+}
+
+.input_b_single button{
+    padding: 10px 20px;
+    background: #FFF;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
